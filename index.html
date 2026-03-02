@@ -1,0 +1,119 @@
+// Jai Bholenath
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orb Chain Blitz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header glass">
+    <div class="container header-inner">
+      <div class="logo" data-i18n="header.logo">ORB CHAIN BLITZ</div>
+
+      <nav class="nav-menu" aria-label="Primary">
+        <a href="#features" data-i18n="features.title">Features</a>
+        <a href="#screenshots" data-i18n="screenshots.title">Screenshots</a>
+        <a href="#download" data-i18n="download.title">Download</a>
+      </nav>
+
+      <div class="language-switcher">
+        <label for="languageSelect" class="visually-hidden" data-i18n="header.langLabel">Language</label>
+        <select id="languageSelect" aria-label="Language selector"></select>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1 data-i18n="hero.h1">Unleash Explosive Chain Reactions</h1>
+    <h2 data-i18n="hero.h2">Orb Chain Blitz: 6 Player Offline Board Game</h2>
+    <p data-i18n="hero.p">Start the Chain. Rule the Chaos</p>
+    <div class="hero-buttons">
+      <a href="#download" class="btn primary" data-i18n="btn.download">Download Now</a>
+    </div>
+  </div>
+
+  <div class="glow-orb orb1"></div>
+  <div class="glow-orb orb2"></div>
+  <div class="glow-orb orb3"></div>
+</section>
+
+<section id="features" class="section">
+  <h2 data-i18n="features.title">Game Features</h2>
+  <div class="grid">
+    <div class="card" data-i18n="features.f1">⚡ Lightning Fast Gameplay</div>
+    <div class="card" data-i18n="features.f2">🔗 Massive Chain Combos</div>
+    <div class="card" data-i18n="features.f3">🎮 Smooth Controls</div>
+    <div class="card" data-i18n="features.f4">🤝 Multiplayer</div>
+    <div class="card" data-i18n="features.f5">𖡎 Competitive Strategy</div>
+  </div>
+</section>
+
+<section id="screenshots" class="section dark">
+  <h2 data-i18n="screenshots.title">Gameplay Preview</h2>
+  <div class="grid">
+    <figure class="screenshot">
+      <img src="assets/ss1.jpeg" alt="Gameplay screenshot 1" class="screenshot-img" loading="lazy">
+    </figure>
+    <figure class="screenshot">
+      <img src="assets/ss2.jpeg" alt="Gameplay screenshot 2" class="screenshot-img" loading="lazy">
+    </figure>
+    <figure class="screenshot">
+      <img src="assets/ss3.jpeg" alt="Gameplay screenshot 3" class="screenshot-img" loading="lazy">
+    </figure>
+    <figure class="screenshot">
+      <img src="assets/ss4.jpeg" alt="Gameplay screenshot 4" class="screenshot-img" loading="lazy">
+    </figure>
+    <figure class="screenshot">
+      <img src="assets/ss5.jpeg" alt="Gameplay screenshot 4" class="screenshot-img" loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<section id="download" class="section">
+  <h2 data-i18n="download.title">Get the Game</h2>
+  <div class="download-buttons">
+    <a href="#" class="btn primary" data-i18n="download.android">Android</a>
+    <a href="#" class="btn primary" data-i18n="download.ios">iOS (Soon)</a>
+  </div>
+</section>
+
+<section id="faq" class="section dark">
+  <h2 data-i18n="faq.title">FAQ</h2>
+
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span data-i18n="faq.q1">Is Orb Chain Blitz free?</span>
+    </div>
+    <div class="faq-answer">
+      <span data-i18n="faq.a1">Yes, the game is free with optional in-app purchases.</span>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question" onclick="toggleFAQ(this)">
+      <span data-i18n="faq.q2">Does it work offline?</span>
+    </div>
+    <div class="faq-answer">
+      <span data-i18n="faq.a2">Yes, you can enjoy it without internet.</span>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <p data-i18n="footer.copy">© 2026 Orb Chain Blitz</p>
+  <a href="privacy-policy.html" data-i18n="footer.privacy">Privacy Policy</a> |
+  <a href="contact.html" data-i18n="footer.terms">Contact Us</a>
+</footer>
+
+<!-- Trailer modal removed -->
+
+<script src="script.js"></script>
+</body>
+</html>

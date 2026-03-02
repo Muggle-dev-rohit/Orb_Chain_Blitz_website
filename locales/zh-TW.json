@@ -1,0 +1,11 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "語言" },
+  "nav": { "home": "主頁" },
+  "hero": { "h1": "釋放爆炸性的連鎖反應", "h2": "Orb Chain Blitz：6 人離線桌遊", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "立即下載" },
+  "features": { "title": "遊戲特色", "f1": "⚡ 極速遊玩", "f2": "🔗 大規模連鎖組合", "f3": "🎮 流暢操作", "f4": "🤝 多人遊戲", "f5": "𖡎 競技策略" },
+  "download": { "title": "取得遊戲", "android": "Android", "ios": "iOS（即將）" },
+  "faq": { "title": "常見問題", "q1": "Orb Chain Blitz 是否免費？", "a1": "是，遊戲免費，並提供可選的應用內購買。", "q2": "可以離線遊玩嗎？", "a2": "是的，您可以在沒有網路的情況下遊玩。" },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "隱私政策", "terms": "聯絡我們" }
+}

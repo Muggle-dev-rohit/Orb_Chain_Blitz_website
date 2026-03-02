@@ -1,0 +1,11 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "言語" },
+  "nav": { "home": "ホーム" },
+  "hero": { "h1": "爆発的な連鎖反応を解き放て", "h2": "Orb Chain Blitz: 6人用オフラインボードゲーム", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "ダウンロード" },
+  "features": { "title": "ゲームの特徴", "f1": "⚡ 超高速のゲームプレイ", "f2": "🔗 大規模チェーンコンボ", "f3": "🎮 スムーズな操作", "f4": "🤝 マルチプレイヤー", "f5": "𖡎 競技的戦略" },
+  "download": { "title": "ゲームを入手", "android": "Android", "ios": "iOS（近日）" },
+  "faq": { "title": "よくある質問", "q1": "Orb Chain Blitz は無料ですか？", "a1": "はい、ゲームはアプリ内課金が任意の無料ゲームです。", "q2": "オフラインで動作しますか？", "a2": "はい、インターネットなしで楽しめます。" },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "プライバシーポリシー", "terms": "お問い合わせ" }
+}

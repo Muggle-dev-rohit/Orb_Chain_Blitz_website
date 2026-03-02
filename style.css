@@ -1,0 +1,544 @@
+:root {
+  --primary: #00f0ff;
+  --accent: #ff00c8;
+  --text: #ffffff;
+  --glass: rgba(255,255,255,0.05);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #111a33, #05070f);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+/* HEADER */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 20px;
+}
+
+
+.language-switcher {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1200;
+}
+
+/* Fixed-size, dark themed select to avoid native mobile UI stretching */
+.language-switcher select {
+  width: 160px;
+  height: 40px;
+  max-height: 40px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(20,20,30,0.95);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  overflow: hidden;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.language-switcher select:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45), 0 0 0 3px rgba(0,240,255,0.06);
+  outline: none;
+}
+
+/* Option list styling (note: mobile OS may override native UI) */
+.language-switcher select option {
+  background: #111;
+  color: #fff;
+}
+
+.lang-select select:focus {
+  outline: 2px solid rgba(0,240,255,0.14);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px; overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px); white-space: nowrap;
+}
+
+/* RTL support */
+.nav-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-menu a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 160ms ease, transform 120ms ease;
+}
+
+.nav-menu a:hover {
+  background: rgba(0,240,255,0.06);
+  transform: translateY(-2px);
+}
+
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font-size: 20px;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+/* Ensure header doesn't overlap content: add top padding to main */
+main { padding-top: 24px; }
+
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] .language-switcher { margin-left: 0; margin-right: auto; }
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 140px 20px;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 48px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero h2 {
+  font-size: 48px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+/* BUTTONS */
+
+.btn {
+  padding: 12px 24px;
+  margin: 15px 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.primary {
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  color: black;
+}
+
+.primary:hover {
+  transform: scale(1.05);
+}
+
+.secondary {
+  border: 2px solid var(--primary);
+  background: transparent;
+  color: var(--primary);
+}
+
+/* SECTIONS */
+
+.section {
+  padding: 80px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.section h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: var(--primary);
+  border-bottom: 2px solid rgba(0, 240, 255, 0.3);
+  padding-bottom: 10px;
+}
+
+.section h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.section p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 12px 0;
+  opacity: 0.95;
+}
+
+.section ul {
+  list-style-position: inside;
+  margin: 15px 0 15px 20px;
+  padding: 0;
+}
+
+.section li {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.section a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.section a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.dark {
+  background: #070c18;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+/* Centered layout for specific sections */
+#features,
+#screenshots,
+#faq {
+  text-align: center;
+}
+
+/* Center grid items inside the featured/screenshot sections */
+#features .grid,
+#screenshots .grid {
+  justify-items: center;
+  align-items: start;
+}
+
+.card {
+  background: var(--glass);
+  padding: 40px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+/* Make card contents centered when inside features */
+#features .card {
+  text-align: center;
+}
+
+/* Download section: center buttons and make options responsive */
+#download {
+  text-align: center;
+}
+
+.download-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.download-buttons .btn {
+  min-width: 140px;
+  padding: 12px 22px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px var(--primary);
+}
+
+.screenshot {
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1c2747, #0d1225);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenshot-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Ensure grid items don't force a fixed height and images keep aspect ratio */
+.grid .screenshot { min-height: 120px; }
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #05070f;
+}
+
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* DEVELOPER INFO BOX */
+
+.section > p:nth-of-type(2),
+.section > p:nth-of-type(3),
+.section > p:nth-of-type(4) {
+  background: rgba(0, 240, 255, 0.05);
+  padding: 12px 16px;
+  border-left: 3px solid var(--primary);
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+/* GLOW ORBS */
+
+.glow-orb {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.6;
+}
+
+.orb1 { background: var(--primary); top: 10%; left: 20%; }
+.orb2 { background: var(--accent); bottom: 20%; right: 15%; }
+.orb3 { background: #00ff9f; top: 40%; right: 40%; }
+
+/* FAQ */
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+/* Center FAQ items and make questions clearly centered */
+#faq .faq-item {
+  text-align: center;
+}
+
+#faq .faq-question {
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+#faq .faq-answer {
+  text-align: center;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Trailer modal styles removed */
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero h2 {
+    font-size: 28px;
+  }
+  
+  header {
+    padding: 15px 20px;
+  }
+  
+  .logo {
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    max-width: 100%;
+  }
+  
+  .section h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  
+  .section h2 {
+    font-size: 18px;
+    margin-top: 25px;
+  }
+  
+  .section h3 {
+    font-size: 15px;
+  }
+  
+  .section p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: rgba(5,7,15,0.95);
+    flex-direction: column;
+    gap: 0;
+    padding: 10px 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-toggle { display: inline-block; }
+
+  .language-switcher select { min-width: 120px; }
+  
+  .section ul {
+    margin: 12px 0 12px 25px;
+  }
+  
+  .section li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+  
+  .hero h2 {
+    font-size: 20px;
+  }
+  
+  .section {
+    padding: 25px 15px;
+    max-width: 100%;
+  }
+  
+  .section h1 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  
+  .section h2 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .section h3 {
+    font-size: 14px;
+  }
+  
+  .section p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .section ul {
+    margin: 10px 0 10px 20px;
+    padding-left: 5px;
+  }
+  
+  .section li {
+    font-size: 13px;
+    margin: 8px 0;
+  }
+  
+  header {
+    padding: 12px 15px;
+  }
+  
+  .logo {
+    font-size: 16px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 14px;
+  }
+}
+}

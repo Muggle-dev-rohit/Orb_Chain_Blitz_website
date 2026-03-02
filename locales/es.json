@@ -1,0 +1,14 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "Idioma" },
+  "nav": { "home": "Inicio" },
+  "hero": { "h1": "Libera reacciones en cadena explosivas", "h2": "Orb Chain Blitz: juego de mesa offline para 6 jugadores", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "Descargar ahora" },
+  "features": { "title": "Características del juego", "f1": "⚡ Jugabilidad súper rápida", "f2": "🔗 Cadenas masivas", "f3": "🎮 Controles suaves", "f4": "🤝 Multijugador", "f5": "𖡎 Estrategia competitiva" },
+  "download": { "title": "Descargar el juego", "android": "Android", "ios": "iOS (Próximamente)" },
+  "faq": { "title": "Preguntas", "q1": "¿Orb Chain Blitz es gratis?", "a1": "Sí, el juego es gratis con compras opcionales dentro de la app.", "q2": "¿Funciona sin conexión?", "a2": "Sí, puedes jugar sin internet." },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "Política de Privacidad", "terms": "Contáctanos" },
+  "contact": { "title": "Contáctanos", "p": "Esta es la página de contacto de Orb Chain Blitz.", "body": "<p>Si tienes comentarios, sugerencias, quejas o necesitas información sobre Orb Chain Blitz, estaremos encantados de saber de ti.</p><p>Puedes contactarnos en cualquier momento por correo electrónico:</p><p>📧 <a href=\"mailto:rohittjhaa356@gmail.com\">rohittjhaa356@gmail.com</a><br>📧 <a href=\"mailto:rohitjha350@gmail.com\">rohitjha350@gmail.com</a></p><p>Agradecemos tus comentarios y haremos todo lo posible por responder lo antes posible.</p><p>¡Gracias por apoyar Orb Chain Blitz!</p>" },
+  "terms": { "title": "Términos y Condiciones", "p": "Estos son los Terminos y Condiciones de Orb Chain Blitz." },
+  "privacy": { "title": "Política de Privacidad", "lastUpdated": "Última actualización: 26 de febrero de 2026" }
+}

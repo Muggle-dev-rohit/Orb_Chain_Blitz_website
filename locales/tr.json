@@ -1,0 +1,16 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "Dil" },
+  "nav": { "home": "Ana Sayfa" },
+  "hero": { "h1": "Patlayıcı Zincir Reaksiyonlarını Serbest Bırakın", "h2": "Orb Chain Blitz: 6 Kişilik Çevrimdışı Masa Oyunu", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "Şimdi İndir" },
+  "features": { "title": "Oyun Özellikleri", "f1": "⚡ Yıldırım Hızında Oynanış", "f2": "🔗 Dev Zincir Komboları", "f3": "🎮 Akıcı Kontroller", "f4": "🤝 Çok Oyunculu", "f5": "𖡎 Rekabetçi Strateji" },
+  "download": { "title": "Oyunu Edinin", "android": "Android", "ios": "iOS (Yakında)" },
+  "faq": { "title": "SSS", "q1": "Orb Chain Blitz ücretsiz mi?", "a1": "Evet, oyun isteğe bağlı uygulama içi satın alımlarla ücretsizdir.", "q2": "Çevrimdışı çalışıyor mu?", "a2": "Evet, internet olmadan oynayabilirsiniz." },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "Gizlilik Politikası", "terms": "Bize Ulaşın" },
+  "contact": {
+    "title": "Contact Us",
+    "p": "This is the Contact Us page for Orb Chain Blitz.",
+    "body": "<p>If you have any feedback, suggestions, complaints, or need any information regarding Orb Chain Blitz, we would be happy to hear from you.</p><p>You can reach out to us anytime via email:</p><p>📧 <a href=\"mailto:rohittjhaa356@gmail.com\">rohittjhaa356@gmail.com</a><br>📧 <a href=\"mailto:rohitjha350@gmail.com\">rohitjha350@gmail.com</a></p><p>We value your feedback and will do our best to respond as soon as possible.</p><p>Thank you for supporting Orb Chain Blitz!</p>"
+  }
+}

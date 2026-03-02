@@ -1,0 +1,11 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "Sprache" },
+  "nav": { "home": "Startseite" },
+  "hero": { "h1": "Entfessle explosive Kettenreaktionen", "h2": "Orb Chain Blitz: 6-Spieler Offline-Brettspiel", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "Jetzt herunterladen" },
+  "features": { "title": "Spielmerkmale", "f1": "⚡ Blitzschnelles Gameplay", "f2": "🔗 Massive Kettenkombos", "f3": "🎮 Sanfte Steuerung", "f4": "🤝 Mehrspielermodus", "f5": "𖡎 Wettbewerbsstrategie" },
+  "download": { "title": "Spiel herunterladen", "android": "Android", "ios": "iOS (Demnächst)" },
+  "faq": { "title": "FAQ", "q1": "Ist Orb Chain Blitz kostenlos?", "a1": "Ja, das Spiel ist kostenlos mit optionalen In-App-Käufen.", "q2": "Funktioniert es offline?", "a2": "Ja, Sie können es ohne Internet genießen." },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "Datenschutzerklärung", "terms": "Kontakt" }
+}

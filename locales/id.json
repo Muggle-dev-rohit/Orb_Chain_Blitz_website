@@ -1,0 +1,16 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "Bahasa" },
+  "nav": { "home": "Beranda" },
+  "hero": { "h1": "Lepaskan Reaksi Berantai Eksplosif", "h2": "Orb Chain Blitz: Game papan offline 6 pemain", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "Unduh Sekarang" },
+  "features": { "title": "Fitur Game", "f1": "⚡ Permainan Sangat Cepat", "f2": "🔗 Kombinasi Rantai Besar", "f3": "🎮 Kontrol Halus", "f4": "🤝 Multiplayer", "f5": "𖡎 Strategi Kompetitif" },
+  "download": { "title": "Dapatkan Game", "android": "Android", "ios": "iOS (Segera)" },
+  "faq": { "title": "FAQ", "q1": "Apakah Orb Chain Blitz gratis?", "a1": "Ya, permainan ini gratis dengan pembelian opsional dalam aplikasi.", "q2": "Apakah berfungsi secara offline?", "a2": "Ya, Anda dapat menikmatinya tanpa internet." },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "Kebijakan Privasi", "terms": "Hubungi Kami" },
+  "contact": {
+    "title": "Contact Us",
+    "p": "This is the Contact Us page for Orb Chain Blitz.",
+    "body": "<p>If you have any feedback, suggestions, complaints, or need any information regarding Orb Chain Blitz, we would be happy to hear from you.</p><p>You can reach out to us anytime via email:</p><p>📧 <a href=\"mailto:rohittjhaa356@gmail.com\">rohittjhaa356@gmail.com</a><br>📧 <a href=\"mailto:rohitjha350@gmail.com\">rohitjha350@gmail.com</a></p><p>We value your feedback and will do our best to respond as soon as possible.</p><p>Thank you for supporting Orb Chain Blitz!</p>"
+  }
+}

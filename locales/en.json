@@ -1,0 +1,102 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": {
+    "logo": "ORB CHAIN BLITZ",
+    "langLabel": "Language"
+  },
+  "nav": { "home": "Home" },
+  "hero": {
+    "h1": "Unleash Explosive Chain Reactions",
+    "h2": "Orb Chain Blitz: 6 Player Offline Board Game",
+    "p": "Start the Chain. Rule the Chaos"
+  },
+  "btn": {
+    "download": "Download Now"
+  },
+  "features": {
+    "title": "Game Features",
+    "f1": "⚡ Lightning Fast Gameplay",
+    "f2": "🔗 Massive Chain Combos",
+    "f3": "🎮 Smooth Controls",
+    "f4": "🤝 Multiplayer",
+    "f5": "𖡎 Competitive Strategy"
+  },
+  "screenshots": { "title": "Gameplay Preview" },
+  "download": {
+    "title": "Get the Game",
+    "android": "Android",
+    "ios": "iOS (Soon)"
+  },
+  "faq": {
+    "title": "FAQ",
+    "q1": "Is Orb Chain Blitz free?",
+    "a1": "Yes, the game is free with optional in-app purchases.",
+    "q2": "Does it work offline?",
+    "a2": "Yes, you can enjoy it without internet."
+  },
+  "footer": {
+    "copy": "© 2026 Orb Chain Blitz",
+    "privacy": "Privacy Policy",
+    "terms": "Contact Us"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "p": "This is the Contact Us page for Orb Chain Blitz.",
+    "body": "<p>If you have any feedback, suggestions, complaints, or need any information regarding Orb Chain Blitz, we would be happy to hear from you.</p><p>You can reach out to us anytime via email:</p><p>📧 <a href=\"mailto:rohittjhaa356@gmail.com\">rohittjhaa356@gmail.com</a><br>📧 <a href=\"mailto:rohitjha350@gmail.com\">rohitjha350@gmail.com</a></p><p>We value your feedback and will do our best to respond as soon as possible.</p><p>Thank you for supporting Orb Chain Blitz!</p>"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "p": "This is the Terms & Conditions page for Orb Chain Blitz."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: February 26, 2026",
+    "intro": {
+      "title": "1. Introduction",
+      "p1": "This Privacy Policy describes how Orb Chain Blitz (\"the Game\") handles information when you use the mobile application developed and published by Rohit Kumar Jha, an individual developer based in India (\"Developer\", \"we\", \"our\", or \"us\").",
+      "p2": "Your privacy is important to us. This policy explains what information is collected, how it is used, and your rights regarding your data.",
+      "p3": "By using the Game, you agree to the practices described in this Privacy Policy."
+    },
+    "dev": {
+      "title": "2. Developer Information",
+      "nameLabel": "Developer Name:",
+      "typeLabel": "Developer Type:",
+      "countryLabel": "Country:",
+      "contactLabel": "Contact Emails:"
+    },
+    "collect": {
+      "title": "3. Information We Collect",
+      "personal": {
+        "title": "3.1 Personal Information",
+        "p1": "The Game does not require:",
+        "li1": "user accounts",
+        "li2": "login systems",
+        "li3": "usernames or profiles",
+        "li4": "direct personal information submission",
+        "p2": "We do not intentionally collect personally identifiable information from users."
+      },
+      "auto": {
+        "title": "3.2 Automatically Collected Information",
+        "p1": "The Game uses third-party services that may automatically collect certain non-personal data to improve performance and support advertising.",
+        "p2": "This information may include:",
+        "li1": "device type and model",
+        "li2": "operating system version",
+        "li3": "app interaction data",
+        "li4": "crash reports",
+        "li5": "approximate location (derived from IP address)",
+        "li6": "advertising identifiers"
+      }
+    },
+    "third": { "title": "4. Third-Party Services", "p1": "The Game integrates the following third-party services:" },
+    "firebase": { "title": "Google Firebase", "usedFor": "Used for:", "li1": "analytics", "li2": "performance monitoring", "li3": "crash reporting", "p2": "Firebase may collect anonymized usage and diagnostic data.<br>Learn more: https://firebase.google.com/support/privacy" },
+    "admob": { "title": "Google AdMob", "p1": "Used to display advertisements within the Game.", "p2": "AdMob may collect and use data such as:", "li1": "advertising ID", "li2": "device information", "li3": "interaction with ads", "p3": "This helps deliver relevant advertisements.<br>Learn more: https://policies.google.com/privacy" },
+    "permissions": { "title": "5. Permissions", "p1": "The Game may use standard device permissions required for normal app functionality, including:", "li1": "Internet access (for ads and analytics services)", "p2": "The Game does not intentionally access:", "li2": "camera", "li3": "microphone", "li4": "contacts", "li5": "personal files or photos" },
+    "children": { "title": "6. Children's Privacy", "p1": "Orb Chain Blitz is suitable for a general audience and may be played by children. The Game does not knowingly collect personal information from children.", "p2": "If a parent or guardian believes that a child has provided personal information, they may contact us and we will promptly address the issue." },
+    "offline": { "title": "7. Offline Gameplay", "p1": "The core gameplay of Orb Chain Blitz works fully offline. However, internet connectivity may be used optionally by third-party services such as advertising and analytics.", "p2": "Local multiplayer features operate only on the same device and do not transmit data online." },
+    "sharing": { "title": "8. Data Sharing", "p1": "We do not sell or share personal information with third parties.", "p2": "Data may be processed by third-party service providers (Firebase and AdMob) solely for:", "li1": "analytics", "li2": "app improvement", "li3": "advertising services" },
+    "security": { "title": "9. Data Security", "p1": "We take reasonable steps to protect user information through trusted third-party platforms provided by Google services.", "p2": "However, no method of electronic storage or transmission is completely secure." },
+    "rights": { "title": "10. User Rights", "p1": "Depending on your location, you may have rights to:", "li1": "request information about collected data", "li2": "request deletion of data processed through third-party services", "li3": "opt out of personalized advertising through device settings", "p2": "Users can reset or limit advertising IDs through their device privacy settings." },
+    "changes": { "title": "11. Changes to This Privacy Policy", "p1": "We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.", "p2": "Users are advised to review this policy periodically." },
+    "contact": { "title": "12. Contact Us", "p1": "If you have any questions or concerns regarding this Privacy Policy, you may contact:", "p2": "Rohit Kumar Jha — rohittjhaa356@gmail.com, rohitjha350@gmail.com" }
+  }
+}

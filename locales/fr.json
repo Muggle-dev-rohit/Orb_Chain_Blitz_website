@@ -1,0 +1,11 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "Langue" },
+  "nav": { "home": "Accueil" },
+  "hero": { "h1": "Déchaînez des réactions en chaîne explosives", "h2": "Orb Chain Blitz : jeu de plateau hors ligne pour 6 joueurs", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "Télécharger" },
+  "features": { "title": "Fonctionnalités", "f1": "⚡ Gameplay ultra-rapide", "f2": "🔗 Combos de chaînes massifs", "f3": "🎮 Contrôles fluides", "f4": "🤝 Multijoueur", "f5": "𖡎 Stratégie compétitive" },
+  "download": { "title": "Obtenez le jeu", "android": "Android", "ios": "iOS (Bientôt)" },
+  "faq": { "title": "FAQ", "q1": "Orb Chain Blitz est-il gratuit ?", "a1": "Oui, le jeu est gratuit avec des achats intégrés optionnels.", "q2": "Fonctionne-t-il hors ligne ?", "a2": "Oui, vous pouvez en profiter sans Internet." },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "Politique de confidentialité", "terms": "Contactez-nous" }
+}

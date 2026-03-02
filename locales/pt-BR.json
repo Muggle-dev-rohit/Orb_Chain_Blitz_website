@@ -1,0 +1,16 @@
+{
+  "document": { "title": "Orb Chain Blitz" },
+  "header": { "logo": "ORB CHAIN BLITZ", "langLabel": "Idioma" },
+  "nav": { "home": "Início" },
+  "hero": { "h1": "Libere reações em cadeia explosivas", "h2": "Orb Chain Blitz: Jogo de tabuleiro offline para 6 jogadores", "p": "Start the Chain. Rule the Chaos" },
+  "btn": { "download": "Baixar agora" },
+  "features": { "title": "Recursos do jogo", "f1": "⚡ Jogabilidade super rápida", "f2": "🔗 Combos massivos", "f3": "🎮 Controles suaves", "f4": "🤝 Multijogador", "f5": "𖡎 Estratégia competitiva" },
+  "download": { "title": "Obter o jogo", "android": "Android", "ios": "iOS (Em breve)" },
+  "faq": { "title": "FAQ", "q1": "Orb Chain Blitz é gratuito?", "a1": "Sim, o jogo é gratuito com compras opcionais no aplicativo.", "q2": "Funciona offline?", "a2": "Sim, você pode curtir sem internet." },
+  "footer": { "copy": "© 2026 Orb Chain Blitz", "privacy": "Política de Privacidade", "terms": "Contato" },
+  "contact": {
+    "title": "Contato",
+    "p": "Esta é a página de contato do Orb Chain Blitz.",
+    "body": "<p>Se você tiver algum comentário, sugestão, reclamação ou precisar de qualquer informação sobre o Orb Chain Blitz, teremos prazer em ouvir você.</p><p>Você pode nos contatar a qualquer momento por e-mail:</p><p>📧 <a href=\"mailto:rohittjhaa356@gmail.com\">rohittjhaa356@gmail.com</a><br>📧 <a href=\"mailto:rohitjha350@gmail.com\">rohitjha350@gmail.com</a></p><p>Agradecemos seu feedback e faremos o possível para responder o mais rápido possível.</p><p>Obrigado por apoiar o Orb Chain Blitz!</p>"
+  }
+}
